@@ -1,0 +1,124 @@
+body {
+    
+    text-align: center;
+    font-family: "Happy Monkey", system-ui;
+    background: radial-gradient(brown, purple, orange);
+    color: white;
+    text-shadow: 0 0 2px black;
+}
+
+#main-img {
+    
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid lightcoral;
+}
+
+h2, h4 {
+    
+    background: brown;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: lighter;
+    
+}
+
+#header {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h4 {
+    
+    margin: 0;
+}
+
+h2 {
+    
+    margin: 20px 0 10px 0;
+}
+
+.gift-section {
+    
+    margin-top: 60px;
+}
+
+h5 {
+    
+    margin: 0;
+    font-size: 15px;
+}
+
+.gift-cover {
+    
+    background-image: url("images/gift-cover.png");
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+.gift-title {
+    
+    padding: none;
+    background: none;
+    margin-bottom: 5px;
+}
+
+.gift-cover:hover {
+    
+    background-image: url("images/happy.gif");
+    background-size: cover;
+}
+
+#second-gift:hover {
+    
+    background-image: url("images/react.gif");
+}
+
+#third-gift:hover {
+    
+    background-image: url("images/super.gif");
+    background-size: cover;
+}
+
+
+#fourth-gift:hover {
+    
+    background-image: url("images/charming.gif");
+}
+
+#fifth-gift {
+    
+    height: 400px;
+}
+
+#fifth-gift:hover {
+    
+    background-image: url("images/wishes.gif");
+    background-size: cover;
+}
+
+#last-title {
+    
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    margin-top: 40px;
+}
+
+a {
+    
+    color: white;
+}
