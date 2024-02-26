@@ -2,7 +2,7 @@ body {
     
     text-align: center;
     font-family: "Happy Monkey", system-ui;
-    background: linear-gradient(to bottom right, orange, purple, brown);
+    background: radial-gradient(brown, purple, orange);
     color: white;
     text-shadow: 0 0 2px black;
 }
