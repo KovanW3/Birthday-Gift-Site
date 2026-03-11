@@ -1,8 +1,14 @@
 body {
-    
+    margin: 0;
+    min-height: 100vh;
     text-align: center;
     font-family: "Happy Monkey", system-ui;
-    background: radial-gradient(brown, purple, orange);
+    background-color: #ffe9f1;
+    background-image:
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220' viewBox='0 0 220 220'%3E%3Cg opacity='0.9'%3E%3Cpath d='M43 146h54v18H43z' fill='%23ffc6d9'/%3E%3Cpath d='M36 138c0-10 8-18 18-18 4 0 8 1 11 4 3-7 10-12 18-12 11 0 20 8 22 19 9 0 17 7 17 16 0 9-7 16-16 16H52c-9 0-16-7-16-16 0-4 2-7 5-9z' fill='%23fff2b5'/%3E%3Cpath d='M65 100h10v22H65z' fill='%23ff8aa8'/%3E%3Ccircle cx='70' cy='96' r='6' fill='%23fff5f8'/%3E%3Cpath d='M154 128l22 44h-44z' fill='%23d69562'/%3E%3Ccircle cx='154' cy='114' r='16' fill='%23ff9f80'/%3E%3Ccircle cx='141' cy='120' r='13' fill='%23fff2b5'/%3E%3Ccircle cx='167' cy='120' r='13' fill='%2398d8c8'/%3E%3C/g%3E%3C/svg%3E");
+    background-size: 220px 220px;
+    background-repeat: repeat;
+    background-attachment: fixed;
     color: white;
     text-shadow: 0 0 2px black;
 }
